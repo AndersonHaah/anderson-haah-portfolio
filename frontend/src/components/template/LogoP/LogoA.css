@@ -1,0 +1,20 @@
+.logo-dev {
+  font-family: SourceCode-light, monospace;
+  font-size: 0.9rem;
+  color: #974ef7; 
+  background-color: #0d1117; 
+  padding: 0px 20px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+.animation-footer {
+  color: #00FFAA;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

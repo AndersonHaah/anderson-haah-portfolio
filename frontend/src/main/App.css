@@ -1,0 +1,53 @@
+:root {
+    --bg-shadow: #201662;
+
+    --bg-nav: #9AEBA3;
+    --bg-link: #9aeba38c;
+    --bg-footer: #012030;
+    
+}
+
+@font-face {
+    font-family: SourceCode-light;
+    src: url('../components/assets/fonts/SourceCodePro-Light.ttf');
+}
+@font-face {
+    font-family: SourceCode-regular;
+    src: url('../components/assets/fonts/SourceCodePro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('../components/assets/fonts/Epilogue-Light.ttf');
+}
+
+body {
+    background-color: #040615;
+}
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 100px 1fr 40px;
+    height: 100vh;
+}
+
+.container-footer {
+    bottom: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}

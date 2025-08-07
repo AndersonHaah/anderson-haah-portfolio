@@ -1,0 +1,20 @@
+.container-footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 25px;
+    height: 25px;
+    background-color: #0d1117;
+    box-shadow: 0 0 10px #974ef7;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+}
+
+.footer-content {
+    color: #974ef7; 
+    font-size: 0.9rem;
+    font-family: SourceCode-light, monospace;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+

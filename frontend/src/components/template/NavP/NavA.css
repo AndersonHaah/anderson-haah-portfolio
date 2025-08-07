@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+}
+
+
+div.containerHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 1px;
+    background-color: #040615;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+aside.menu-area {
+    display: grid;
+    font-size: 0.8em;
+    
+    align-items: start;
+}
+
+a {
+    font-size: 0.9em;
+    margin-left: 12px;
+    padding: 1px;
+    text-decoration: none;
+    color: var(--bg-footer);
+    transition: all 0.5s ease;
+    color: #974ef7; 
+    font-family: SourceCode-regular, monospace;
+    
+}
+
+a:hover {
+    background-color: #974ef7;
+    color: #ffffffdc;
+    padding: 5px;
+    font-size: 1em;
+
+}

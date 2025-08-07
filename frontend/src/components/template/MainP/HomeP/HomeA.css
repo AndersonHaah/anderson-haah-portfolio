@@ -1,0 +1,73 @@
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.home {
+    background: linear-gradient(rgba(10, 9, 9, 0.877), rgba(0, 0, 0, 0.815)), url('../../../assets/imgs/bg-main.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-shadow: 0px 1px 10px var(--bg-shadow);
+
+    display: grid;
+    grid-template-rows: 100px  1fr;
+    grid-template-columns: 400px;
+    justify-content: space-between;
+    font-family: SourceCode-light, monospace;
+}
+
+
+.welcome-welcome {
+    grid-area: 2 / 1 / 2 / 5;
+    color: #FFF;
+    align-self: start;
+    justify-self: center;
+    font-size: 7rem;
+}
+
+.welcome-text {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+    align-self: center;
+    justify-self: center;
+    color: #FFF;
+}
+
+.width-text {
+    max-width: 1100px;
+    font-size: 4.4rem;
+    text-align: center;
+}
+
+span[class*="blinkingCursor"] {
+    color: #00ffaa !important;
+    animation: blink 1.2s ease-in-out infinite !important;
+}
+
+.logo-home {
+    grid-row: 2 / 3;
+    grid-column: 3 / 5;
+    align-self: end;
+    justify-self: end;
+    margin-bottom: 20px;
+}
+
+.logo-home h1 {
+    font-size: 1rem;
+    opacity: 10%;
+    letter-spacing: 2px;
+    color: #FFF;
+}
+
+.animation-logo {
+    color: #00FFAA;
+    animation: blink 1.2s ease-in-out infinite !important;
+}
