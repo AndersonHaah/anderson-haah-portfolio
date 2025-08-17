@@ -10,6 +10,6 @@
 @media (max-width: 1080px) {
     .main {
         grid-template-rows: repeat(4, 980px);
-        gap: 150px;
+        gap: 250px;
     }
 }

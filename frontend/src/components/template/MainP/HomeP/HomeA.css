@@ -80,4 +80,10 @@ span[class*="blinkingCursor"] {
   }
 }
 
+@media (max-width: 580px) {
+    .home {
+        height: 70%;
+    }
+}
+
 
