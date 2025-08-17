@@ -51,3 +51,8 @@ Sinta-se à vontade para me contatar.
 
 - **LinkedIn:** [Anderson Pereira](https://www.linkedin.com/in/anderson-pereira-83a797215/)
 - **Email:** [Andersonhaah1@gmail.com](mailto:andersonhaah1@gmail.com)
+
+# Informações adicionais
+Para mais projetos que mostram um pouco do meu conhecimento básico acesse meus repositorios no github.
+
+-- **GitHub:** [Anderson Haah](https://github.com/andersonhaah)
