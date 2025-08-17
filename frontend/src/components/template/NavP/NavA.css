@@ -71,6 +71,6 @@ aside.menu-area {
 @media (max-width: 730px) {
     .menu-area {
         width: 400px;
-        margin-right: 40px;
+        justify-self: center;
     }
 }
