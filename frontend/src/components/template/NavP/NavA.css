@@ -73,10 +73,32 @@ aside.menu-area {
         width: 400px;
     }
     .menu {
-        justify-self: center;
+        justify-self: end;
         margin-right: 4px;
     }
     .logo-home {
         margin-top: 4px;
+    }
+}
+@media (max-width: 480px) {
+
+    .logo-home {
+        display: none;
+    }
+
+    .menu {
+        justify-self: end;
+    }
+}
+@media (max-width: 400px) {
+    .menu {
+        justify-self: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        justify-self: start;
+        font-size: 4vw;
     }
 }

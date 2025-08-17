@@ -81,16 +81,20 @@ span[class*="blinkingCursor"] {
 
     .home {
         padding-top: 50px;
-        padding-bottom: 50px;
     }
 
     .welcome-welcome {
         margin-top: 20px;
-        margin-bottom: 20px;
     }
 
     .welcome-text {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .welcome-welcome {
+        font-size: 11vw;
     }
 }

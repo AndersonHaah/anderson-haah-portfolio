@@ -47,3 +47,10 @@
         overflow: visible;
     }
 }
+
+@media (max-width: 480px) {
+
+    .img-text {
+        font-size: 3.1vw;
+    }
+}
