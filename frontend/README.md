@@ -39,7 +39,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
     O aplicativo será aberto no seu navegador padrão em `http://localhost:3000`.
 
 ## 🖼️ Preview
-![Capitura de tela do meu Portfólio](https://i.imgur.com/33gU9hN.gif)
+<div aling="center"> ![Capitura de tela do meu Portfólio](https://i.imgur.com/33gU9hN.gif) </div>
 <p align="center">
   <a href="https://andersonhaah.github.io/anderson-haah-portfolio" target="_blank">
     **Clique aqui para ver a versão online!**
