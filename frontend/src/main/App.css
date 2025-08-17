@@ -40,6 +40,8 @@ body {
 html, body, #root {
   height: 100%;
   margin: 0;
+  scrollbar-color: #20166279 transparent;
+  scrollbar-width: thin;
 }
 
 .app {
@@ -51,3 +53,4 @@ html, body, #root {
 main {
   flex: 1;
 }
+

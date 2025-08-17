@@ -4,14 +4,14 @@
 
 .KnowledgeAndProjects {
     display: grid;
-
+    justify-items: center;
     width: 100%;
 }
+
 
 .projectsdiv {
     position: absolute;
     grid-area: 1 / 1 / 2 / 2;
-    height: 800px;
 }
 
 .project-knowledge {
@@ -20,7 +20,7 @@
     justify-items: center;
     align-items: center;
     width: 98vw;
-    min-height: 760px;
+    height: 900px;
     overflow: hidden;
 }
 
@@ -144,7 +144,7 @@
     .knowledge-project-mq {
         display: grid;
         overflow: hidden;
-        min-height: 1370px;
+        min-height: 1650px;
     }
 
 }
