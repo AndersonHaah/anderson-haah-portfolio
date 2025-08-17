@@ -74,5 +74,9 @@ aside.menu-area {
     }
     .menu {
         justify-self: center;
+        margin-right: 3px;
+    }
+    .logo-home {
+        margin-top: 5px;
     }
 }
