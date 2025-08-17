@@ -1,27 +1,26 @@
 import './NavA.css'
 import react from 'react'
-import Header from '../HeaderP/HeaderA'
 
 export default props =>
-    <div className="containerHeader">
+    <div className="container-header">
+            <aside className="logo-home">
+                <h1>AH<span className="animation-logo">_</span>
+                </h1>
+            </aside>
         <aside className="menu-area">
             <nav className="menu">
-                <a href="#/Principal">
+                <a href="#home">
                     Inicio
                 </a>
-                <a href="#/SobreMim">
+                <a href="#about">
                     Sobre Mim
                 </a>
-                <a href="#/Projetos">
-                    Projetos
+                <a href="#KnowledgeAndProjects">
+                    Conhecimentos
                 </a>
-                <a href="#/Contatos">
+                <a href="#contact">
                     Contatos
                 </a>
             </nav>
         </aside>
-        <aside className="header">
-            <Header />
-        </aside>
-
     </div>

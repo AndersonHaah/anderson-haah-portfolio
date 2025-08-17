@@ -1,8 +1,10 @@
 .about {
+    align-self: start;
     display: grid;
     justify-content: center;
     align-items: center;
-    
+    width: 100%;
+
 }
 
 .principal {
@@ -12,8 +14,10 @@
     justify-items: center;
     align-items: center;
 
-    height: 75vh;
+    height: auto;
     width: 80vw;
+    max-width: 2000px;
+    margin: 0 auto;
     border-radius: 2px;
     box-shadow: 0px 0px 10px var(--bg-shadow);
     color: white;
@@ -21,16 +25,34 @@
 }
 
 .open-to-work {
-    font-size: 1.2rem;
     color: #974ef7;
+    font-size: 1.8rem;
+    padding-top: 18px;
 }
 
+.open-to-work::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 1s ease;
+}
 
+.open-to-work:hover::after {
+    transform: scaleX(1);
+
+}
 .about-text {
     align-self: center;
     justify-self: center;
-    font-size: 0.9rem;
     max-width: 550px;
+
+
 }
 
 .about-img {
@@ -41,16 +63,39 @@
     background-position: center center;
     border-radius: 2px;
     box-shadow: 0px 0px 5px var(--bg-shadow);
+    padding: 100px;
 }
 
-.about-img:hover {
-    background-image: url(../../../assets/imgs/perfil-foto2.png);
-    width: 400px;
-    height: 410px;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 2px;
-    box-shadow: 0px 0px 5px var(--bg-shadow);
-    transition: background-image 0.9s ease
+
+@media (max-width: 1180px) {
+
+    .principal {
+        grid-template-columns: 1fr;
+        width: 90vw;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .about-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        ;
+    }
+
+    .about-text {
+        max-width: 90%;
+        text-align: center;
+    }
 }
 
+@media (max-width: 580px) {
+    .about-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-text {
+        font-size: 0.9rem;
+    }
+}

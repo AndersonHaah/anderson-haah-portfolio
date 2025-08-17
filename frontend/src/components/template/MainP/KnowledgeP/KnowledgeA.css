@@ -1,0 +1,150 @@
+.knowledge-project-mq {
+    display: none;
+}
+
+.KnowledgeAndProjects {
+    display: grid;
+
+    width: 100%;
+}
+
+.projectsdiv {
+    position: absolute;
+    grid-area: 1 / 1 / 2 / 2;
+    height: 800px;
+}
+
+.project-knowledge {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+    width: 98vw;
+    min-height: 760px;
+    overflow: hidden;
+}
+
+.div-language-knowledge {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 99vw;
+}
+
+
+.div-knowledge {
+    /* container */
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 80px;
+
+
+    /* itens */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 350px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.language {
+
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.experience-icons {
+    /* container */
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    /* Itens */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    justify-items: center;
+    gap: 20px;
+
+
+    width: 400px;
+    height: 100%;
+    background-color: #3737385b;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px var(--bg-shadow);
+}
+
+.icon-wrapper {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.icon-wrapper:hover {
+    transform: scale(1.1);
+}
+
+.experience-icon {
+    width: 80px;
+}
+
+.description-area {
+    /* container */
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    height: 100%;
+}
+
+.skills-text {
+    /* itens */
+    display: grid;
+    align-items: center;
+
+
+    font-size: 1.2rem;
+    font-family: 'Epilogue', sans-serif;
+    color: #ffffff;
+
+    background-color: #3737385b;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0px 10px var(--bg-shadow);
+    height: 350px;
+    max-width: 500px;
+}
+
+.swipe-indicator-right {
+    font-size: 0.8rem;
+    font-family: 'Epilogue', sans-serif;
+    color: #00ffaa;
+    justify-self: end;
+    align-self: end;
+    margin-right: 10px;
+}
+
+.swipe-indicator-left {
+    font-size: 0.8rem;
+    font-family: 'Epilogue', sans-serif;
+    color: #00ffaa;
+    justify-self: start;
+    align-self: end;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 1000px) {
+    .project-knowledge {
+        display: none;
+    }
+
+    .knowledge-project-mq {
+        display: grid;
+        overflow: hidden;
+        min-height: 1370px;
+    }
+
+}

@@ -1,14 +1,14 @@
 import './MainA.css'
 import react from 'react'
 import AboutA from './AboutP/AboutA'
-import ContactA from './ContactP/ContactA'
 import HomeA from './HomeP/HomeA'
-import ProjectsA from './ProjectsP/ProjectsA'
+import KnowledgeA from './KnowledgeP/KnowledgeA'
+import ContactA from './ContactP/ContactA'
 
 export default props => 
     <div className="main">
         <HomeA />
         <AboutA />
-        <ProjectsA />
+        <KnowledgeA />
         <ContactA />
     </div>

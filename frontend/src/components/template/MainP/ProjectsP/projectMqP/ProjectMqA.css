@@ -1,0 +1,24 @@
+.project-mq {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+}
+
+.language-PMQ {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-left: 15px;
+
+}
+
+.card-mq {
+    justify-self: center;
+}
+
+@media (max-width: 1080px) {
+    .card-mq {
+        width: 100%;
+    }
+}

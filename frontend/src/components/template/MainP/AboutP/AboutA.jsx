@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 
 export default props =>
-    <div className="about">
+    <div className="about" id="about">
         <div className="col-12 principal" data-aos="fade-right" data-aos-delay="300"
             data-aos-duration="1000">
             <aside className="about-text" data-aos="fade-right" data-aos-delay="300"
@@ -13,7 +13,8 @@ export default props =>
             data-aos-duration="2000">#OpenToWork</h1>
                 <h1 className="display-6" data-aos="fade-right" data-aos-delay="300"
             data-aos-duration="2000">Anderson Pereira 26</h1>
-                <p data-aos="fade-right" data-aos-delay="300"
+                <p
+                data-aos="fade-right" data-aos-delay="300"
             data-aos-duration="2000">Olá! Eu sou um estudante apaixonado por desenvolvimento <strong>front-end</strong> e viciado em transformar código em <strong>interfaces bonitas e funcionais.</strong>
                     <br />
                     <br />
@@ -30,7 +31,6 @@ export default props =>
             </aside>
             <aside data-aos="fade-right" data-aos-delay="300"
             data-aos-duration="2500">
-                <p>Este sou eu. Cuidado que as vezes a matrix buga! :P</p>
                 <div className="about-img">
                 </div>
             </aside>

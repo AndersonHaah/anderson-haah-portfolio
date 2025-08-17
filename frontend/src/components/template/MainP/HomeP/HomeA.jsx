@@ -17,10 +17,17 @@ function MeuComponente() {
         <h1 className="display-2 width-text">
             {iniciarTypewriter && (
                 <Typewriter
-                    words={['Código, design e paixão tudo em uma só linha de front-end.']}
+                    words={[
+                        'Criando experiências digitais que conectam pessoas e ideias.',
+                        'Transformando curiosidade em soluções digitais.',
+                        'Interfaces bonitas, código limpo, performance afiada.',
+                        'Código, design e paixão, tudo em uma só linha de front-end.'
+                    ]}
                     cursor
                     cursorStyle='_'
+                    deleteSpeed={40}
                     typeSpeed={150}
+                    delaySpeed={2000}
                 />
             )}
         </h1>
@@ -29,14 +36,14 @@ function MeuComponente() {
 
 
 export default props =>
-    <div className="home">
-        <h1 className="display-1 welcome-animation welcome-welcome" data-aos="fade" data-aos-delay="300"
-            data-aos-duration="3000">Bem-Vindo</h1>
+    <div className="home" id="home">
+        <h1 className="display-1 welcome-animation welcome-welcome"
+            data-aos="fade"
+            data-aos-delay="300"
+            data-aos-duration="3000">
+            {"<Hello World/>"}
+        </h1>
         <aside className="welcome-text">
             <MeuComponente />
-        </aside>
-        <aside className="logo-home">
-            <h1>AH<span className="animation-logo">_</span>
-            </h1>
         </aside>
     </div>

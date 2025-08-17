@@ -1,0 +1,21 @@
+.glow-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -20;
+
+  background: radial-gradient(
+    circle 140px at var(--mouse-x) var(--mouse-y),
+    #00ffaa25,
+    transparent 80%
+  );
+
+  transition: background 0.1s ease;
+}
+::selection {
+  background-color: #00ffaa88; 
+  color: white;             
+}
