@@ -79,11 +79,7 @@ span[class*="blinkingCursor"] {
         text-align: center;
     }
 
-}
-
-@media (max-width: 580px) {
     .home {
-        height: 70%;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -92,7 +88,6 @@ span[class*="blinkingCursor"] {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-
 
     .welcome-text {
         margin-top: 20px;
