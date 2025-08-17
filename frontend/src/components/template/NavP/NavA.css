@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 25px;
-    background-color: #37373810 ;
+    background-color: #37373869 ;
     position: fixed;
     width: 100%;
     top: 0;
