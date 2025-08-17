@@ -21,7 +21,7 @@
 .welcome-welcome {
     grid-row: 1 / 2;
     grid-column: 1 / 5;
-    
+
     margin: 15px 15px 0px 50px;
     color: #FFF;
 }
@@ -69,21 +69,33 @@ span[class*="blinkingCursor"] {
 }
 
 @media (max-width: 1000px) {
-   .welcome-welcome {
-    margin: 0 auto;
-  }
+    .welcome-welcome {
+        margin: 0 auto;
+    }
 
-  .welcome-text {
-    max-width: 98%;
-    margin: 0 auto;
-    text-align: center;
-  }
+    .welcome-text {
+        max-width: 98%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 580px) {
     .home {
         height: 70%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .welcome-welcome {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .welcome-text {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
-
-
