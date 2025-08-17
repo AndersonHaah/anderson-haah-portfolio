@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/anderson-haah-portfolio/static/css/main.d9cbdc97.css",
+    "main.js": "/anderson-haah-portfolio/static/js/main.a40b017b.js",
+    "static/js/453.7befba8d.chunk.js": "/anderson-haah-portfolio/static/js/453.7befba8d.chunk.js",
+    "static/media/perfil-foto.png": "/anderson-haah-portfolio/static/media/perfil-foto.285c7dc3ba33a9d970c1.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/anderson-haah-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/portifolio-gif.gif": "/anderson-haah-portfolio/static/media/portifolio-gif.bdc46f895ecf242e49c8.gif",
+    "static/media/EmConstrução.gif": "/anderson-haah-portfolio/static/media/EmConstrução.9da263c98a95f2687378.gif",
+    "static/media/bootstrap-icons.woff?": "/anderson-haah-portfolio/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/fontawesome-webfont.eot": "/anderson-haah-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/anderson-haah-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/bootstrap-icons.woff2?": "/anderson-haah-portfolio/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "static/media/SourceCodePro-Light.ttf": "/anderson-haah-portfolio/static/media/SourceCodePro-Light.965b1ded8d7379ba5f82.ttf",
+    "static/media/SourceCodePro-Regular.ttf": "/anderson-haah-portfolio/static/media/SourceCodePro-Regular.5b5fc5425257cd6642d1.ttf",
+    "static/media/Epilogue-Light.ttf": "/anderson-haah-portfolio/static/media/Epilogue-Light.37517a0b61b909ffb606.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/anderson-haah-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/anderson-haah-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/iconREACT.svg": "/anderson-haah-portfolio/static/media/iconREACT.5bf2491fde4d5e67d5f84c17b82f2d37.svg",
+    "static/media/iconJQuery.svg": "/anderson-haah-portfolio/static/media/iconJQuery.f3e79236b296fbbd5e4f969739964b8b.svg",
+    "static/media/iconGULP.svg": "/anderson-haah-portfolio/static/media/iconGULP.6e28060692e4b74f3f0924b227ffbe3c.svg",
+    "static/media/iconWEBPACK.svg": "/anderson-haah-portfolio/static/media/iconWEBPACK.da3d1f4180a5e740fd4e8136b92599d3.svg",
+    "static/media/iconHTML5.svg": "/anderson-haah-portfolio/static/media/iconHTML5.ceb0e1c2c4fd20145699d92e0fd9be66.svg",
+    "static/media/iconCSS3.svg": "/anderson-haah-portfolio/static/media/iconCSS3.8fff148ce32b80f4da9fe12e4cad9048.svg",
+    "static/media/iconBootstrap.svg": "/anderson-haah-portfolio/static/media/iconBootstrap.3a162f65200426203695ee878e6b62fb.svg",
+    "static/media/iconJS.svg": "/anderson-haah-portfolio/static/media/iconJS.cf7c98cedd74915c50149c17993be3a2.svg",
+    "index.html": "/anderson-haah-portfolio/index.html",
+    "static/media/iconAJAX.svg": "/anderson-haah-portfolio/static/media/iconAJAX.c6bf430099c3e20cff3eb85be7d2640d.svg",
+    "main.d9cbdc97.css.map": "/anderson-haah-portfolio/static/css/main.d9cbdc97.css.map",
+    "main.a40b017b.js.map": "/anderson-haah-portfolio/static/js/main.a40b017b.js.map",
+    "453.7befba8d.chunk.js.map": "/anderson-haah-portfolio/static/js/453.7befba8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9cbdc97.css",
+    "static/js/main.a40b017b.js"
+  ]
+}
