@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/anderson-haah-portfolio/static/css/main.c07969a2.css",
+    "main.css": "/anderson-haah-portfolio/static/css/main.1cecb556.css",
     "main.js": "/anderson-haah-portfolio/static/js/main.a40b017b.js",
     "static/js/453.7befba8d.chunk.js": "/anderson-haah-portfolio/static/js/453.7befba8d.chunk.js",
     "static/media/perfil-foto.png": "/anderson-haah-portfolio/static/media/perfil-foto.285c7dc3ba33a9d970c1.png",
@@ -26,12 +26,12 @@
     "static/media/iconJS.svg": "/anderson-haah-portfolio/static/media/iconJS.cf7c98cedd74915c50149c17993be3a2.svg",
     "index.html": "/anderson-haah-portfolio/index.html",
     "static/media/iconAJAX.svg": "/anderson-haah-portfolio/static/media/iconAJAX.c6bf430099c3e20cff3eb85be7d2640d.svg",
-    "main.c07969a2.css.map": "/anderson-haah-portfolio/static/css/main.c07969a2.css.map",
+    "main.1cecb556.css.map": "/anderson-haah-portfolio/static/css/main.1cecb556.css.map",
     "main.a40b017b.js.map": "/anderson-haah-portfolio/static/js/main.a40b017b.js.map",
     "453.7befba8d.chunk.js.map": "/anderson-haah-portfolio/static/js/453.7befba8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c07969a2.css",
+    "static/css/main.1cecb556.css",
     "static/js/main.a40b017b.js"
   ]
 }
