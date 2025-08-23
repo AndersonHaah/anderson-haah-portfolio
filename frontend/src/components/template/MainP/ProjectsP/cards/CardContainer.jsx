@@ -11,19 +11,19 @@ export default function CardContainer() {
       image: ProjectsImgs.PI1
     },
     {
-      title: 'Em construção',
-      description: 'Aguardem um pouco',
+      title: 'AH Store',
+      description: 'Uma plataforma de e-commerce moderna e responsiva, desenvolvida em React para demonstrar habilidades em Front-end. O projeto inclui uma interface de usuário otimizada, carrinho de compras interativo, navegação dinâmica com React Router DOM e animações fluidas com Framer Motion.',
       image: ProjectsImgs.PI2
     },
     {
       title: 'Em construção',
       description: 'Aguardem um pouco',
-      image: ProjectsImgs.PI2
+      image: ProjectsImgs.PI3
     },
     {
       title: 'Em construção',
       description: 'Aguardem um pouco',
-      image: ProjectsImgs.PI2
+      image: ProjectsImgs.PI3
     }
   ];
 
