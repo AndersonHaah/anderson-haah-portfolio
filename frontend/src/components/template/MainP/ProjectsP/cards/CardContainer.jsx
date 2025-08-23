@@ -12,7 +12,13 @@ export default function CardContainer() {
     },
     {
       title: 'AH Store',
-      description: 'Uma plataforma de e-commerce moderna e responsiva, desenvolvida em React para demonstrar habilidades em Front-end. O projeto inclui uma interface de usuário otimizada, carrinho de compras interativo, navegação dinâmica com React Router DOM e animações fluidas com Framer Motion.',
+      description: (
+        <p>
+          Uma plataforma de e-commerce moderna e responsiva, desenvolvida em React para demonstrar habilidades em Front-end. O projeto inclui uma interface de usuário otimizada, carrinho de compras interativo, navegação dinâmica com React Router DOM e animações fluidas com Framer Motion.
+          <br />
+          <a href="https://andersonhaah.github.io/projeto-loja-online" target='_blank'>Acesse-o aqui</a>
+        </p>
+      ),
       image: ProjectsImgs.PI2
     },
     {

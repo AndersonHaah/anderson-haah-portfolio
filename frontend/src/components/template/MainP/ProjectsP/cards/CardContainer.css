@@ -4,3 +4,14 @@
   width: 100%;
   justify-content: center;
 }
+
+.card-container a {
+  text-decoration: none;
+  font-size: 1.1em;
+  padding-top: 10px;
+  color: white;
+}
+
+.card-container a:hover {
+  text-decoration: underline;
+}
