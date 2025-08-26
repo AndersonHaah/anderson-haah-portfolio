@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/anderson-haah-portfolio/static/css/main.28223142.css",
-    "main.js": "/anderson-haah-portfolio/static/js/main.13913cbf.js",
+    "main.js": "/anderson-haah-portfolio/static/js/main.0f167cda.js",
     "static/js/453.7befba8d.chunk.js": "/anderson-haah-portfolio/static/js/453.7befba8d.chunk.js",
     "static/media/PI2.gif": "/anderson-haah-portfolio/static/media/PI2.f9e5ef5af8ff0596b162.gif",
+    "static/media/PI3.gif": "/anderson-haah-portfolio/static/media/PI3.03d7ff513f72e02c92a8.gif",
     "static/media/perfil-foto.png": "/anderson-haah-portfolio/static/media/perfil-foto.285c7dc3ba33a9d970c1.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/anderson-haah-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/portifolio-gif.gif": "/anderson-haah-portfolio/static/media/portifolio-gif.bdc46f895ecf242e49c8.gif",
@@ -28,11 +29,11 @@
     "index.html": "/anderson-haah-portfolio/index.html",
     "static/media/iconAJAX.svg": "/anderson-haah-portfolio/static/media/iconAJAX.c6bf430099c3e20cff3eb85be7d2640d.svg",
     "main.28223142.css.map": "/anderson-haah-portfolio/static/css/main.28223142.css.map",
-    "main.13913cbf.js.map": "/anderson-haah-portfolio/static/js/main.13913cbf.js.map",
+    "main.0f167cda.js.map": "/anderson-haah-portfolio/static/js/main.0f167cda.js.map",
     "453.7befba8d.chunk.js.map": "/anderson-haah-portfolio/static/js/453.7befba8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28223142.css",
-    "static/js/main.13913cbf.js"
+    "static/js/main.0f167cda.js"
   ]
 }
