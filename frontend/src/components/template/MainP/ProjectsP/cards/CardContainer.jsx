@@ -29,7 +29,7 @@ export default function CardContainer() {
     {
       title: 'Em construção',
       description: 'Aguardem um pouco',
-      image: ProjectsImgs.PI3
+      image: ProjectsImgs.EmConstrucao
     }
   ];
 
